@@ -1,0 +1,38 @@
+import pygame
+import sys
+import random
+
+# Inicializace Pygame
+pygame.init()
+
+# Nastavení FPS a hodin
+FPS = 15
+clock = pygame.time.Clock()
+
+# Nastavení okna
+window_width = 1333
+window_height = 600
+screen = pygame.display.set_mode((window_width, window_height))
+pygame.display.set_caption('Deterred Journey')
+
+# Načtení pozadí
+background = pygame.image.load("data/background.png")
+background = pygame.transform.scale(background, (window_width, window_height))
+
+while True:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            pygame.quit()
+            sys.exit()
+
+    # Vykreslení pozadí
+    screen.blit(background, (0, 0))
+
+    # Aktualizace obrazovky
+    pygame.display.flip()
+    clock.tick(30)
+
+# Ukončení Pygame
+pygame.quit()
+sys.exit()
+
