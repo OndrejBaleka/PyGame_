@@ -7,8 +7,9 @@
 - `D`: Pohyb doprava
 
   ## Jak se hraje?
+- cílem hry je doskákat přes lávu a nepřátele k červené vlajce umístěné na vrchu mapy. Po dotknutí se vlajky je hra ukončena a na ploše se zobrazí tlačítko "restart"
 - Hráč se může pohybovat doleva a doprava, skákat a musí se vyhýbat nepřátelům a lávě.
-- Hra obsahuje restartovací tlačítko pro restartování hry po prohře nebo vítězství. Pro restartování na tlačítko "restart" klikněte.
+- Hra obsahuje restartovací tlačítko pro restartování hry po prohře nebo vítězství. Pro restartování klikněte na tlačítko "restart".
 ## Připomínky
 - Pozadí a různé grafické prvky jsou načteny z externích obrázků, proto je třeba je mít ve stejné složce, jako kód.
 - Při spuštění se přehrává hudba na pozadí.
